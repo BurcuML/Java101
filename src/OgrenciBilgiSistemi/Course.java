@@ -2,6 +2,7 @@ package OgrenciBilgiSistemi;
 
 public class Course {
 
+    //Sınıflar birbirlerinin nitelikleri olabilirler.
     Teacher teacher;
     String name;
     String code;
