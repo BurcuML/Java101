@@ -18,10 +18,12 @@ public class Main {
 
         Student s1 = new Student("Burcu L", "2017", "4", tarih, fizik, matematik);
         s1.addBulkExamNote(50,75,75);
+        s1.printNote();
         s1.isPass();
 
         Student s2 = new Student("Burcu L", "2016", "4", tarih, fizik, matematik);
         s2.addBulkExamNote(35,50,50);
+        s2.printNote();
         s2.isPass();
     }
 }
