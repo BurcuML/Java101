@@ -18,19 +18,19 @@ public class Main {
         switch (choice){
             case 1:
                 result = (num1 + num2);
-                System.out.println("Sonuç: " + result);
+                System.out.println("Toplam: " + result);
             break;
             case 2:
                 result = (num1 - num2);
-                System.out.println("Sonuç: " + result);
+                System.out.println("Çıkarım: " + result);
                 break;
             case 3:
                 result = (num1 / num2);
-                System.out.println("Sonuç: " + result);
+                System.out.println("Bölüm: " + result);
                 break;
             case 4:
                 result = (num1 * num2);
-                System.out.println("Sonuç: " + result);
+                System.out.println("Çarpım: " + result);
                 break;
             default:
                 System.out.println("Yanlış seçim yaptınız. Lütfen tekrar deneyiniz.");
