@@ -14,9 +14,9 @@ public class Main {
             if(i%4==0 && i%3==0){
                 sum+=i;
                 j++;
-                ort=sum/j;
-                System.out.println("Sonuç: " + ort);
             }
         }
+          ort=sum/j;
+         System.out.println("Sonuç: " + ort);
     }
 }
